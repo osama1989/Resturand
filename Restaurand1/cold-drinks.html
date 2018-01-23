@@ -1,0 +1,355 @@
+<?php 
+
+include_once('model/config.php');
+
+  $result1=dbQuery('SELECT * FROM product');
+
+   echo "lolo";
+?>
+
+
+<!DOCTYPE html>
+<html class="html">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.2.232.244"/>
+  <title>Cold Drinks</title>
+  <meta name="viewport" content="width=768"/>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?417434784"/>
+  <link rel="stylesheet" type="text/css" href="css/cold-drinks.css?190575612" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pu891"><!-- group -->
+     <div class="clip_frame grpelem" id="u891"><!-- image -->
+      <img class="block" id="u891_img" src="images/cold%20drinks.png" alt="" width="233" height="234"/>
+     </div>
+     <div class="clearfix grpelem" id="ppu1053"><!-- column -->
+      <a class="nonblock nontext colelem" id="u1053" href="index.html"><!-- state-based BG images --></a>
+      <div class="clearfix colelem" id="u1055-4"><!-- content -->
+       <p>Cold Drinks</p>
+      </div>
+     </div>
+    </div>
+    <div class="colelem" id="accordionu898wrapper"><!-- vertical box -->
+     <ul class="AccordionWidget clearfix" id="accordionu898"><!-- column -->
+      
+      <?php   
+      
+      
+          while($row = mysql_fetch_array($result1))
+     {	          
+      
+       ?>   
+         
+         
+       <li class="AccordionPanel clearfix colelem" id="2"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u900-4"><!-- content -->
+        <p><? php     echo $row['name'] ;    ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<? php     echo $row['price']; ?>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u901"><!-- group -->
+        <div class="clip_frame grpelem" id="u903"><!-- image -->
+         <img class="block" id="u903_img" src="images/img-thing.jpg" alt="" width="218" height="176"/>
+        </div>
+        <div class="clearfix grpelem" id="u902-6"><!-- content -->
+         <p>&nbsp; <? php     echo $row['despcription']     ?></p>
+        </div>
+       </div>
+      </li>
+     <?php } ?>
+      
+      <li class="AccordionPanel clearfix colelem" id="3"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u1019-4"><!-- content -->
+        <p>ESPRESSO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اسبريسو</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u1020"><!-- group -->
+        <div class="clearfix grpelem" id="u1024-3"><!-- content -->
+         <p>&nbsp;</p>
+        </div>
+        <div class="clearfix grpelem" id="u1023-4"><!-- content -->
+         <p>&nbsp;قهوة إيطالية الصنع مُركزة وغامقة اللون. يتكون مشروب قهوة إسبريسو من القليل من الماء المغلي مع حبوب البن الأصلية المطحونة، يُقدم في فنجان صغير مع صحنه،</p>
+        </div>
+        <div class="clip_frame grpelem" id="u1021"><!-- image -->
+         <img class="block" id="u1021_img" src="images/espresso-cup-dsh-art.jpg" alt="" width="165" height="165"/>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u1010"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u1011-4"><!-- content -->
+        <p>ESPRESSO DOBINO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 275 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اسبريسو دوبينو</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u1012"><!-- group -->
+        <div class="clip_frame grpelem" id="u1016"><!-- image -->
+         <img class="block" id="u1016_img" src="images/pavina2oz.jpg" alt="" width="112" height="112"/>
+        </div>
+        <div class="clip_frame grpelem" id="u1014"><!-- image -->
+         <img class="block" id="u1014_img" src="images/pavina2oz.jpg" alt="" width="112" height="112"/>
+        </div>
+        <div class="clearfix grpelem" id="u1013-5"><!-- content -->
+         <p id="u1013-2">(اسبريسو دبل شط)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u944"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u945-4"><!-- content -->
+        <p>ESPRESSO MICATO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 250S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اسبريسو ميكاتو</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u946"><!-- group -->
+        <div class="clip_frame grpelem" id="u947"><!-- image -->
+         <img class="block" id="u947_img" src="images/cappuccino.jpg" alt="" width="166" height="146"/>
+        </div>
+        <div class="clearfix grpelem" id="u949-4"><!-- content -->
+         <p>(اسبريسو + فوم حليب)</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u955"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u956-4"><!-- content -->
+        <p>ESPRESSO VOCATO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 250 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; اسبريسو فوكاتو</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u957"><!-- group -->
+        <div class="clip_frame grpelem" id="u958"><!-- image -->
+         <img class="block" id="u958_img" src="images/espressocroquant-vanilla_gourmetcoffee.jpg" alt="" width="325" height="170"/>
+        </div>
+        <div class="clearfix grpelem" id="u960-5"><!-- content -->
+         <p id="u960-2">(اسبريسو+بوظة فانيليا)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u982"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u987-4"><!-- content -->
+        <p>CAPPUCCINO ORIGINAL 325 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; كابوتشينو أورجينال</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u983"><!-- group -->
+        <div class="clip_frame grpelem" id="u985"><!-- image -->
+         <img class="block" id="u985_img" src="images/images.jpg" alt="" width="165" height="165"/>
+        </div>
+        <div class="clearfix grpelem" id="u984-5"><!-- content -->
+         <p id="u984-2">(نكهات دراق _كراميل _ دراق)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u1025"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u1026-4"><!-- content -->
+        <p>CAPPOCCINO VANIOAZ&nbsp;&nbsp;&nbsp; 325 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; كابوتشينو فنيواز</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u1027"><!-- group -->
+        <div class="clip_frame grpelem" id="u1029"><!-- image -->
+         <img class="block" id="u1029_img" src="images/cappuccino_cup.jpg" alt="" width="215" height="195"/>
+        </div>
+        <div class="clearfix grpelem" id="u1028-4"><!-- content -->
+         <p>(اسبريسو حليب+ كريمة مخفوقة)</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u994"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u995-4"><!-- content -->
+        <p>CAPPOCCINO FRUIT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 375 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; كابوتشينو فواكه</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u996"><!-- group -->
+        <div class="clip_frame grpelem" id="u997"><!-- image -->
+         <img class="block" id="u997_img" src="images/yogurtcappuccinofreshfruit.jpg" alt="" width="229" height="195"/>
+        </div>
+        <div class="clearfix grpelem" id="u999-5"><!-- content -->
+         <p id="u999-2">(اسبريسو + كريمة + فواكه قطع)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u988"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u993-4"><!-- content -->
+        <p>BERRY CAPPOCCINO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 375 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; بيري كابوتشينو</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u989"><!-- group -->
+        <div class="clip_frame grpelem" id="u990"><!-- image -->
+         <img class="block" id="u990_img" src="images/cioccorosso_cappuccino_chocolat_300.jpg" alt="" width="300" height="180"/>
+        </div>
+        <div class="clearfix grpelem" id="u992-5"><!-- content -->
+         <p id="u992-2">(اسبريسو + كريمة + صوص فواكه +توت بري)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u961"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u966-4"><!-- content -->
+        <p>MEXICAN CHOCOLATE&nbsp;&nbsp;&nbsp;&nbsp; 350 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; شوكولا مكسيكية</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u962"><!-- group -->
+        <div class="clip_frame grpelem" id="u963"><!-- image -->
+         <img class="block" id="u963_img" src="images/tumblr_mactg1iang1rpmjza.jpg" alt="" width="201" height="203"/>
+        </div>
+        <div class="clearfix grpelem" id="u965-5"><!-- content -->
+         <p id="u965-2">(شوكولا + سيروب قرفة +حليب + اسبريسو)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u916"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u921-4"><!-- content -->
+        <p>CHOCO MINT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 350 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; شوكولا نعنع</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u917"><!-- group -->
+        <div class="clip_frame grpelem" id="u919"><!-- image -->
+         <img class="block" id="u919_img" src="images/2fb67a5759cf7e5acbf099473b7801b1eb6da848.jpg" alt="" width="227" height="157"/>
+        </div>
+        <div class="clearfix grpelem" id="u918-5"><!-- content -->
+         <p id="u918-2">(اسبريسو + شوكولا +حليب + سيروب نعنع + كريمة)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u922"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u927-4"><!-- content -->
+        <p>MARC CHOCOLATE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 350 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; شوكولا مارس</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u923"><!-- group -->
+        <div class="clip_frame grpelem" id="u924"><!-- image -->
+         <img class="block" id="u924_img" src="images/malted-cocoa-marshmallows_300.jpg" alt="" width="180" height="214"/>
+        </div>
+        <div class="clearfix grpelem" id="u926-5"><!-- content -->
+         <p id="u926-2">(شوكولا + كريمة + كراميل + حبيبات مارشميلو)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u910"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u911-4"><!-- content -->
+        <p>GALAXY CHOCOLATE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 350 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; شوكولا غالاكسي</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u912"><!-- group -->
+        <div class="clip_frame grpelem" id="u913"><!-- image -->
+         <img class="block" id="u913_img" src="images/905520.jpg" alt="" width="288" height="192"/>
+        </div>
+        <div class="clearfix grpelem" id="u915-5"><!-- content -->
+         <p id="u915-2">(شوكولا + حليب + كريمة + صوص شوكولا)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u928"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u929-4"><!-- content -->
+        <p>CHOCO MIX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 350 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; شوكولا ميكس</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u930"><!-- group -->
+        <div class="clip_frame grpelem" id="u932"><!-- image -->
+         <img class="block" id="u932_img" src="images/espresso_caramel_macchiato_z.jpg" alt="" width="168" height="200"/>
+        </div>
+        <div class="clearfix grpelem" id="u931-5"><!-- content -->
+         <p id="u931-2">(شوكولا + كراميل +سيروب مارشميلو)</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u905"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u909-4"><!-- content -->
+        <p>TURKISH COFFEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 175 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; قهوة تركية</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u906"><!-- group -->
+        <div class="clip_frame grpelem" id="u907"><!-- image -->
+         <img class="block" id="u907_img" src="images/images%20(1).jpg" alt="" width="267" height="178"/>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u950"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u951-4"><!-- content -->
+        <p>TURKISH (DOUBLE)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 275 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; قهوة تركية&nbsp; دبل</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u952"><!-- group -->
+        <div class="clip_frame grpelem" id="u953"><!-- image -->
+         <img class="block" id="u953_img" src="images/images%20(1).jpg" alt="" width="267" height="178"/>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u934"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u935-4"><!-- content -->
+        <p>COFFEE milk and Nestle&nbsp;&nbsp;&nbsp;&nbsp; 250 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; قهوة مع حليب ونستلة</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u936"><!-- group -->
+        <div class="clip_frame grpelem" id="u937"><!-- image -->
+         <img class="block" id="u937_img" src="images/03a2bdef-3081-4ada-954d-c0ca8c0b74a5.jpg" alt="" width="650" height="250"/>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u939"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u943-4"><!-- content -->
+        <p>NESCAFE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 250 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; نسكافيه</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u940"><!-- group -->
+        <div class="clip_frame grpelem" id="u941"><!-- image -->
+         <img class="block" id="u941_img" src="images/nescafe-mug_hr_merge.jpg" alt="" width="246" height="290"/>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u977"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u981-4"><!-- content -->
+        <p>MILO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 250 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ميلو</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u978"><!-- group -->
+        <div class="clip_frame grpelem" id="u979"><!-- image -->
+         <img class="block" id="u979_img" src="images/miloglass_image1.jpg" alt="" width="269" height="185"/>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u967"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u971-4"><!-- content -->
+        <p>MIXED HERBS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; زهورات بأنواعها</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u968"><!-- group -->
+        <div class="clip_frame grpelem" id="u969"><!-- image -->
+         <img class="block" id="u969_img" src="images/pohudenie09.jpg" alt="" width="350" height="253"/>
+        </div>
+       </div>
+      </li>
+      <li class="AccordionPanel clearfix colelem" id="u972"><!-- vertical box -->
+       <div class="AccordionPanelTab clearfix colelem" id="u973-4"><!-- content -->
+        <p>TEA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 150 S.P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; شاي بأنواعه</p>
+       </div>
+       <div class="AccordionPanelContent disn clearfix colelem" id="u974"><!-- group -->
+        <div class="clip_frame grpelem" id="u975"><!-- image -->
+         <img class="block" id="u975_img" src="images/tea-cup.png" alt="" width="314" height="228"/>
+        </div>
+       </div>
+      </li>
+     </ul>
+    </div>
+    <div class="verticalspacer"></div>
+   </div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/u1053-r.png" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3865766194" type="text/javascript"></script>
+  <script src="scripts/webpro.js?3903299128" type="text/javascript"></script>
+  <script src="scripts/musewpdisclosure.js?4285748861" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4068933136" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('#accordionu898', function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu898 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

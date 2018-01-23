@@ -1,0 +1,101 @@
+<manifest alg="2" build="232" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="sweets-deserts.css" crc="158243329" ref="sweets-deserts"/>
+    <file name="meals.css" crc="79293812" ref="meals"/>
+    <file name="hot-drinks.css" crc="534855807" ref="hot-drinks"/>
+    <file name="index.css" crc="204608907" ref="index"/>
+    <file name="sage.css" crc="3881015131" ref="sage"/>
+    <file name="cold-drinks.css" crc="190575612" ref="cold-drinks"/>
+    <file name="pizza.css" crc="504176770" ref="pizza"/>
+    <file name="about-us.css" crc="265773982" ref="about-us"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts:about-us"/>
+    <file name="museutils.js" crc="3865766194" ref="index:hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts:about-us"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts:about-us"/>
+    <file name="webpro.js" crc="3903299128" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts:about-us"/>
+    <file name="musewpdisclosure.js" crc="4285748861" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="pie.js" crc="3827607177" ref="about-us"/>
+    <file name="form_check.php" crc="4066397928" ref="about-us"/>
+    <file name="form_throttle.php" crc="3962765407" ref="about-us"/>
+    <file name="form-u1812.php" crc="406872946" ref="about-us"/>
+  </folder>
+  <folder name="images">
+    <file name="s.jpg" crc="4042860017" ref="index:about-us"/>
+    <file name="u777.png" crc="4168856205" ref="index"/>
+    <file name="u777-r.png" crc="390209335" ref="index"/>
+    <file name="u777-m.png" crc="232380304" ref="index"/>
+    <file name="u779.png" crc="267267785" ref="index"/>
+    <file name="u779-r.png" crc="3769164883" ref="index"/>
+    <file name="u779-m.png" crc="192802361" ref="index"/>
+    <file name="u781.png" crc="4223626922" ref="index"/>
+    <file name="u781-r.png" crc="3813664938" ref="index"/>
+    <file name="u781-m.png" crc="452423696" ref="index"/>
+    <file name="u783.png" crc="4244970170" ref="index"/>
+    <file name="u783-r.png" crc="4096305264" ref="index"/>
+    <file name="u783-m.png" crc="207002575" ref="index"/>
+    <file name="u785.png" crc="481579862" ref="index"/>
+    <file name="u785-r.png" crc="214426146" ref="index"/>
+    <file name="u785-m.png" crc="3972066367" ref="index"/>
+    <file name="u787.png" crc="128916465" ref="index"/>
+    <file name="u787-r.png" crc="154686330" ref="index"/>
+    <file name="u787-m.png" crc="180767629" ref="index"/>
+    <file name="logo arabic-u812.png" crc="3952084720" ref="index"/>
+    <file name="hot drinks.png" crc="4051655093" ref="hot-drinks"/>
+    <file name="u381.png" crc="3785291452" ref="hot-drinks"/>
+    <file name="u381-r.png" crc="131661696" ref="hot-drinks"/>
+    <file name="img-thing.jpg" crc="259595287" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="espresso-cup-dsh-art.jpg" crc="4260508036" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="pavina2oz.jpg" crc="37015554" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="cappuccino.jpg" crc="4130619263" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="espressocroquant-vanilla_gourmetcoffee.jpg" crc="256326939" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="images.jpg" crc="174477606" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="cappuccino_cup.jpg" crc="375313451" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="yogurtcappuccinofreshfruit.jpg" crc="4090571748" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="cioccorosso_cappuccino_chocolat_300.jpg" crc="3888855866" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="tumblr_mactg1iang1rpmjza.jpg" crc="51105187" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="2fb67a5759cf7e5acbf099473b7801b1eb6da848.jpg" crc="504295677" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="malted-cocoa-marshmallows_300.jpg" crc="4142927183" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="905520.jpg" crc="503757279" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="espresso_caramel_macchiato_z.jpg" crc="3994807609" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="images (1).jpg" crc="458093546" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="03a2bdef-3081-4ada-954d-c0ca8c0b74a5.jpg" crc="4106627213" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="nescafe-mug_hr_merge.jpg" crc="4006422042" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="miloglass_image1.jpg" crc="61590840" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="pohudenie09.jpg" crc="3814936633" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="tea-cup.png" crc="522674310" ref="hot-drinks:cold-drinks:meals:sage:pizza:sweets-deserts"/>
+    <file name="u865.png" crc="71924239" ref="hot-drinks"/>
+    <file name="u865-r.png" crc="245766514" ref="hot-drinks"/>
+    <file name="cold drinks.png" crc="201355457" ref="cold-drinks"/>
+    <file name="u1053.png" crc="3785291452" ref="cold-drinks"/>
+    <file name="u1053-r.png" crc="131661696" ref="cold-drinks"/>
+    <file name="meals.png" crc="3854768794" ref="meals"/>
+    <file name="u1251.png" crc="3785291452" ref="meals"/>
+    <file name="u1251-r.png" crc="131661696" ref="meals"/>
+    <file name="sage.png" crc="348867455" ref="sage"/>
+    <file name="u1425.png" crc="3785291452" ref="sage"/>
+    <file name="u1425-r.png" crc="131661696" ref="sage"/>
+    <file name="pizza.png" crc="414465289" ref="pizza"/>
+    <file name="u1595.png" crc="3785291452" ref="pizza"/>
+    <file name="u1595-r.png" crc="131661696" ref="pizza"/>
+    <file name="sweets.png" crc="321199324" ref="sweets-deserts"/>
+    <file name="u1767.png" crc="3785291452" ref="sweets-deserts"/>
+    <file name="u1767-r.png" crc="155066969" ref="sweets-deserts"/>
+    <file name="u1838-17.png" crc="440089133" ref="about-us"/>
+    <file name="u1838-17-r.png" crc="292912033" ref="about-us"/>
+    <file name="u1838-17-m.png" crc="261216649" ref="about-us"/>
+    <file name="u1838-17-fs.png" crc="4001031594" ref="about-us"/>
+    <file name="u1922.png" crc="3785291452" ref="about-us"/>
+    <file name="u1922-r.png" crc="131661696" ref="about-us"/>
+  </folder>
+  <file name="index.html" crc="3943265197" mt="1411461832403" redirect="true"/>
+  <file name="hot-drinks.html" crc="4163339557" mt="1411462308079" redirect="true"/>
+  <file name="cold-drinks.html" crc="285450310" mt="1410685001638" redirect="true"/>
+  <file name="meals.html" crc="4037982026" mt="1410685015693" redirect="true"/>
+  <file name="sage.html" crc="346045025" mt="1410685024645" redirect="true"/>
+  <file name="pizza.html" crc="263703119" mt="1410685032911" redirect="true"/>
+  <file name="sweets-deserts.html" crc="4275701417" mt="1410685041254" redirect="true"/>
+  <file name="about-us.html" crc="269744929" mt="1410685278890" redirect="true"/>
+</manifest>
